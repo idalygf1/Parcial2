@@ -1,0 +1,72 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fa9beb;
+    color: #333;
+}
+
+.Imagen {
+    top: relative;
+    right: 0;
+    width: 100px;
+    position:center;
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+
+}
+
+/* Estilos de la barra de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #a218e2;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #5c4caf;
+}
+
+h2 {
+    color: #2196F3;
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
